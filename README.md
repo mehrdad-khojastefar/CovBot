@@ -10,7 +10,14 @@ First you need to get a BOT TOKEN from @BotFather, then you have to enter your t
 ```python
 	# Create the Updater and pass it your bot's token.
     	updater = Updater("YOUR BOT TOKEN GOES HERE")
-``` 
+```
+
+cd to the working directory then run the main script
+```python
+# run the main script
+python main.py
+```
+ 
 ## How to use :
 The bot understands the basic 4 commands ( even if you don't have them added in the botfather ) `/start /stop /help /menu`
 After you have started the bot, enter a country name to get the inline buttons for each action.
