@@ -87,9 +87,9 @@ def button(update: Update, context: CallbackContext):
 def main() -> None:
     
     # Create the Updater and pass it your bot's token.
-    updater = Updater("YOUR BOT TOKEN")
+    updater = Updater("1188155886:AAHFjWgvY1wWvov9X8mtR_A9yiurYloJWd4")
 
-    # handling handlers
+    # handling commands
     updater.dispatcher.add_handler(CommandHandler('start', start))
     updater.dispatcher.add_handler(CommandHandler('help', help))
     updater.dispatcher.add_handler(CommandHandler('menu', menu))
